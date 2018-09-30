@@ -1,5 +1,5 @@
 h1 {
-   color: red;
+   color: white;
    text-align: center;
    font-size: 6vw;
    font-family: 'Roboto', sans-serif;
@@ -12,9 +12,11 @@ p {
 }
 
 #subtitle {
-   /*background-color: grey;*/
+   background-color: #9a0007;
+   color: white;
    text-align: center;
-   margin: auto;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
    margin-bottom: 2em;
    font-size: 3vw;
    font-family: 'Roboto', sans-serif;
@@ -70,22 +72,30 @@ b {
    box-sizing: border-box;
 }
 
+body {
+   background-color: #d32f2f;
+   margin: 0px;
+}
+
 .left {
-   background-color: #2196F3;
+   background-color: #d32f2f;
+   /* #2196F3;*/
    padding: 20px;
    float: left;
    width: 20%;
 }
 
 .main {
-   background-color: #f1f1f1;
+   background-color: #d32f2f;
+   /* #f1f1f1;*/
    padding: 20px;
    float: left;
    width: 60%;
 }
 
 .right {
-   background-color: #4CAF50;
+   background-color: #d32f2f;
+   /* #4CAF50;*/
    padding: 20px;
    float: right;
    width: 20%;
@@ -97,21 +107,23 @@ b {
    }
 }
 
+#cardresult {
+   visibility: hidden;
+}
+
 .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 0.2em 0.6em 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    background-color: white;
-    margin: 2em;
-    visibility: hidden;
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   background-color: white;
+   margin: 1.3em;
 }
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+/*.card:hover {
     box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,0.2);
-}
-
+}*/
 /* Add some padding inside the card container */
 .container {
-    padding: 0.8em 1.5em;
+   padding: 0.8em 1.5em;
 }
