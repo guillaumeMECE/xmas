@@ -42,6 +42,21 @@ function calcul() {
       //document.getElementById("icoQ1").innerHTML = "done";
       document.getElementById("txtresult").innerHTML = "You have " + point + " good answers and " + (nbrQ - point) + " wrong answers";
       document.getElementById('cardresult').style.visibility = 'visible';
-
+      move_card();
    }
+}
+
+function move_card() {
+  var elem = document.getElementById("cardresult");
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos + 'px';
+    }
+  }
 }

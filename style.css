@@ -111,7 +111,6 @@ body {
 #cardresult {
    visibility: hidden;
 }
-
 .card {
    /* Add shadows to create the "card" effect */
    box-shadow: 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
