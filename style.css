@@ -125,10 +125,6 @@ body {
    margin: 1.3em;
 }
 
-/* On mouse-over, add a deeper shadow */
-/*.card:hover {
-    box-shadow: 0 0.5em 1.5em 0 rgba(0,0,0,0.2);
-}*/
 /* Add some padding inside the card container */
 .container {
    padding: 0.8em 1.5em;
