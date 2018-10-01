@@ -13,6 +13,7 @@ p {
 
 #subtitle {
    background-color: #9a0007;
+   box-shadow: 0 0.2em 0.4em 0 rgba(0, 0, 0, 0.1);
    color: white;
    text-align: center;
    padding-top: 0.5em;
