@@ -52,6 +52,7 @@ b {
 }
 
 .button1 {
+   margin: 2.5em;
    background-color: white;
    color: #4CAF50;
    border: 2px solid #4CAF50;
@@ -74,7 +75,7 @@ b {
 
 body {
    background-color: #d32f2f;
-   margin: 0px;
+   margin: 0em;
 }
 
 .left {
