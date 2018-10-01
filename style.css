@@ -25,6 +25,7 @@ p {
 b {
    font-size: 2.3vw;
    margin-right: 1em;
+   font-family: 'Roboto', sans-serif;
 }
 
 .button:focus {
@@ -104,6 +105,11 @@ body {
 @media screen and (max-width:800px) {
    .left, .main, .right {
       width: 100%;
+   }
+   .imglr {
+      width: 100%;
+      max-width: 13%;
+      height: auto;
    }
 }
 
