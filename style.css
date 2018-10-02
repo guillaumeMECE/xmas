@@ -1,3 +1,4 @@
+/* First title */
 h1 {
    color: white;
    text-align: center;
@@ -5,6 +6,7 @@ h1 {
    font-family: 'Roboto', sans-serif;
 }
 
+/* Questions txt format */
 p {
    font-size: 2vw;
    font-family: 'Roboto', sans-serif;
@@ -20,19 +22,22 @@ p {
    margin-bottom: 2em;
    font-size: 3vw;
    font-family: 'Roboto', sans-serif;
+   box-shadow: 0 0.1em 0.3em 0 rgba(0, 0, 0, 0.2);
 }
 
+/* n° of Questions */
 b {
    font-size: 2.3vw;
    margin-right: 1em;
    font-family: 'Roboto', sans-serif;
 }
 
+/* turn off blue border when focus */
 .button:focus {
    outline: 0 !important;
 }
 
-/*turn off blue border when focus*/
+/* General button class */
 .button {
    background-color: #4CAF50;
    /* Green */
@@ -52,6 +57,7 @@ b {
    font-family: 'Roboto', sans-serif;
 }
 
+/* Specific class for Validation button */
 .button1 {
    margin: 2.5em;
    background-color: white;
@@ -59,64 +65,75 @@ b {
    border: 2px solid #4CAF50;
 }
 
+/* action when button hover */
 .button1:hover {
    background-color: #4CAF50;
    color: white;
 }
 
+/* class for all image caracteristics */
 .imglr {
    width: 100%;
    max-width: 100%;
    height: auto;
 }
 
+/* General caracs for responsive div (left/main/right) */
 * {
    box-sizing: border-box;
 }
+
 body {
    background-color: #d32f2f;
    margin: 0em;
+   /* turn off natural margin */
 }
 
+/* Left Div for responsive design */
 .left {
    background-color: #d32f2f;
-   /* #2196F3;*/
    padding: 20px;
    float: left;
    width: 20%;
 }
 
+/* Main Div for responsive design */
 .main {
    background-color: #d32f2f;
-   /* #f1f1f1;*/
    padding: 20px;
    float: left;
    width: 60%;
 }
 
+/* Right Div for responsive design */
 .right {
    background-color: #d32f2f;
-   /* #4CAF50;*/
    padding: 20px;
    float: right;
    width: 20%;
 }
 
+/* Responsive div adaptation depend of the screen size */
 @media screen and (max-width:800px) {
    .left, .main, .right {
       width: 100%;
+      /* one div one line instead of 3 div 1 line */
    }
+
    .imglr {
       width: 100%;
       max-width: 13%;
+      /* all images in the same line */
       height: auto;
    }
 }
 
+/* the txt result in shape of a card */
 #cardresult {
    visibility: hidden;
 }
 
+/* General class for card */
 .card {
    /* Add shadows to create the "card" effect */
    box-shadow: 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
@@ -125,7 +142,7 @@ body {
    margin: 1.3em;
 }
 
-/* Add some padding inside the card container */
+/* padding inside the card container */
 .container {
    padding: 0.8em 1.5em;
 }

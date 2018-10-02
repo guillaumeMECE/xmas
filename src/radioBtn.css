@@ -37,10 +37,11 @@
    background-color: #9a000733;
 }
 
+/* Change the txt color
 .containerRadio:hover {
    color: #9a0007;
 }
-
+*/
 /* When the radio button is checked, add a red background */
 .containerRadio input:checked~.checkmark {
    background-color: #d32f2f;
@@ -53,12 +54,12 @@
    display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
+/* Show the indicator when checked */
 .containerRadio input:checked~.checkmark:after {
    display: block;
 }
 
-/* Style the indicator (dot/circle) */
+/* Style the indicator */
 .containerRadio .checkmark:after {
    top: 0.38em;
    left: 0.38em;
