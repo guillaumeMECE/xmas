@@ -19,10 +19,8 @@
 </head>
 
 <body>
-   <div class="fixTop">
-      <h1>Christmas Quiz</h1>
+   <h1>Christmas Quiz</h1>
       <h4 id="subtitle">Can you answer these questions about Christmas in Britain ? </h4>
-   </div>
    <div class="responsiveDiv">
       <div class="left">
          <img class="imglr" src="lib\santa.png" alt=santa />
@@ -161,6 +159,20 @@
    </div>
 
    <script src="src\qcm.js" type="text/javascript"></script>
+   <script>
+   window.onscroll = function() {myFunction()};
+
+   var navbar = document.getElementById("subtitle");
+   var sticky = navbar.offsetTop;
+
+   function myFunction() {
+     if (window.pageYOffset >= sticky) {
+       navbar.classList.add("sticky")
+     } else {
+       navbar.classList.remove("sticky");
+     }
+   }
+   </script>
 </body>
 
 </html>
