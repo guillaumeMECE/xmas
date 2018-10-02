@@ -19,10 +19,22 @@ p {
    text-align: center;
    padding-top: 0.5em;
    padding-bottom: 0.5em;
-   margin-bottom: 2em;
    font-size: 3vw;
    font-family: 'Roboto', sans-serif;
-   box-shadow: 0 0.1em 0.3em 0 rgba(0, 0, 0, 0.2);
+   box-shadow: 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
+}
+
+.fixTop{
+   position: fixed;
+   background-color:  #d32f2f;
+   width: 100%;
+   margin-top: 0em;
+}
+
+.responsiveDiv{
+   margin-top: 0em;
+   width: 100%;
+   /*margin-top: 6em;*/
 }
 
 /* n° of Questions */
@@ -88,6 +100,7 @@ body {
    margin: 0em;
    /* turn off natural margin */
 }
+
 
 /* Left Div for responsive design */
 .left {
