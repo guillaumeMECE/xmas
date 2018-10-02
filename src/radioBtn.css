@@ -16,7 +16,7 @@
 
 /* Hide the browser's default radio button */
 .containerRadio input {
-   position: absolute;
+   position: relative;
    opacity: 0;
    cursor: pointer;
 }
