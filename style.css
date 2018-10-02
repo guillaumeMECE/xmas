@@ -24,6 +24,7 @@ p {
    font-family: 'Roboto', sans-serif;
    box-shadow: 0 0.2em 0.6em 0 rgba(0, 0, 0, 0.2);
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -33,7 +34,7 @@ p {
 }
 
 .sticky + .responsiveDiv {
-  padding-top: 8.5em;
+  padding-top: 8em;
 }
 
 .responsiveDiv{
@@ -143,6 +144,10 @@ body {
       max-width: 13%;
       /* all images in the same line */
       height: auto;
+   }
+
+   .sticky + .responsiveDiv {
+     padding-top: 4em;
    }
 }
 
