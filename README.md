@@ -9,3 +9,6 @@ https://www.w3schools.com
 https://material.io/design/
 https://fonts.google.com/
 https://fonts.googleapis.com/icon?family=Material+Icons
+
+More :
+This website is also available for smartphone's screen.
