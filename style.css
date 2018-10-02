@@ -42,7 +42,7 @@ b {
    background-color: #4CAF50;
    /* Green */
    border: none;
-   border-radius: 0.3em;
+   border-radius: 2em;/*pill shape*/
    color: white;
    padding: 0.4em 0.8em;
    text-align: center;
@@ -62,7 +62,7 @@ b {
    margin: 2.5em;
    background-color: white;
    color: #4CAF50;
-   border: 2px solid #4CAF50;
+   border: 0.12em solid #4CAF50;
 }
 
 /* action when button hover */
